@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background: #111;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF;
+    margin:1rem 0 2rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.styling{
+    font-weight: 800;
+    color: #d6a955;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_div .input{
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    opacity: 0.8;
+    width: 450px;
+    font-size: 0.8rem;
+    margin: 5px;
+}
+.addbtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background: #d6a955;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+.addbtn:hover{
+    opacity: 0.9;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    margin-bottom: 1rem;
+    padding: 0.5px;
+    border-bottom: 1px solid #FFF;
+    opacity: 0.9;
+}
+.item-input{
+    height: 40px;
+    outline: none;
+    color: #fff;
+    opacity: 0.9;
+    border: none;
+    width:350px;
+    font-size: 0.8rem;
+    background: none;
+}
+.editbtn{
+    position: relative;
+    margin: 5px;
+    font-size: 15px;
+    background: none;
+    outline:none;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+ .delbtn{
+    position: relative;
+    margin: 5px;
+    font-size: 15px;
+    background: none;
+    outline:none;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+ }
